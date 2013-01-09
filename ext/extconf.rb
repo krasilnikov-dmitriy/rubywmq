@@ -23,7 +23,7 @@ end
 
 # Generate Source Files
 GenerateReason.generate(include_path+'/')
-GenerateConst.generate(include_path+'/', File.dirname(__FILE__) + '/../lib/wmq')
+GenerateConst.generate(include_path+'/', File.dirname(__FILE__) + '/../lib64/wmq')
 GenerateStructs.new(include_path+'/', generate_sources_path).generate
 
 # Generate Makefile
