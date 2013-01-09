@@ -11,7 +11,7 @@ require '../../generate/generate_structs'
 include_path = ''
 unless (RUBY_PLATFORM =~ /win/i) || (RUBY_PLATFORM =~ /solaris/i) || (RUBY_PLATFORM =~ /linux/i)
   include_path = '/opt/mqm/inc'
-  dir_config('mqm', include_path, '/opt/mqm/lib')
+  dir_config('mqm', include_path, '/opt/mqm/lib64')
   have_library('mqic')
 
   # Generate Source Files # Could check if not already present
