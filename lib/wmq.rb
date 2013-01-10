@@ -3,6 +3,7 @@ require 'wmq/constants'
 require 'wmq/constants_admin'
 require 'wmq/queue_manager'
 require 'wmq/message'
+require 'wmq/constants_extension'
 
 # Load wmq using the auto-load library.
 #
